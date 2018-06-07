@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'CreateAddressBook' => $baseDir . '/database/migrations/2018_06_03_113044_CreateAddressBook.php',
+    'CreateAddressesTable' => $baseDir . '/database/migrations/2018_06_06_125745_create_addresses_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
