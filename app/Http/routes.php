@@ -23,3 +23,7 @@ Route::controllers([
 Route::group(['middleware' => ['auth']], function () {
 	Route::resource('address','AddressController');
 });
+
+Route::group(array('prefix' => 'api'), function() {
+    Route::resource('address','AddressApiController');
+});

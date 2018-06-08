@@ -92,8 +92,8 @@
 						<div class="form-group {{ $errors->has('address_cat') ? ' has-error' : '' }}">
               <label for="address_cat" class="col-md-4 control-label">Address Category</label>
                <div class="input-group col-md-8">
-                  <input type="checkbox" name="address_cat" value="f"/> Default From&nbsp;&nbsp;
-									 <input type="checkbox" name="address_cat" value="t"/> Default To
+                  <input type="radio" name="address_cat" value="f"/> Default From&nbsp;&nbsp;
+									 <input type="radio" name="address_cat" value="t"/> Default To
                   @if ($errors->has('countryId'))
                       <span class="help-block">
                           <strong>{{ $errors->first('country') }}</strong>
